@@ -1,6 +1,6 @@
 # etl_spend
 
-A FastAPI-based ETL pipeline for CMAT spend data.
+A FastAPI-based ETL pipeline.
 
 This service extracts data from an Oracle source, loads it into an Amazon Redshift staging schema, applies lightweight transformations, and writes the results into a Redshift `spedia` schema. Each ETL step can be triggered through HTTP endpoints, either individually or as a single orchestrated run.
 

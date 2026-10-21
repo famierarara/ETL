@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from app.routers import data_pull, data_transformation, orchestrator
 
-app = FastAPI(title="ETL Pipeline for CMAT data")
+app = FastAPI(title="ETL Pipeline")
 
 app.include_router(data_pull.router)
 app.include_router(data_transformation.router)
