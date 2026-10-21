@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+python-dotenv
+
+# Database drivers - install the ones appropriate for your environment
+# Oracle: cx_Oracle or oracledb
+# cx_Oracle
+# oracledb
+
+# Redshift: psycopg2 or redshift_connector
+# psycopg2-binary
+# redshift_connector
